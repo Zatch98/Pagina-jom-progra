@@ -1,0 +1,125 @@
+body{
+background-color: #dfdfdf;
+}
+header.logo{
+    background-color: rgb(0, 0, 0);
+    
+    
+}
+header.menu {
+	background-color: rgb(14, 2, 48);
+	height: 40px;}
+    
+header.menu a {
+	display: block;
+	float: left;
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+	margin-right: 200px;
+    margin-left: 200px;
+	padding: 10px 0px;
+text-decoration: none;}
+
+header.menu a:hover{
+
+		color: #bbbbb8;
+
+	}
+header.inicio img{
+height: 350px;
+width: 1500px;
+
+    }
+a.game{
+      
+        text-decoration: none;
+        font-size: 4em;
+        color: transparent; 
+     }
+a.game:hover{
+        color: rgb(255, 255, 255); 
+    }
+
+
+
+
+
+div[class^="gow"]{
+	display: block;
+    height: 300px;
+    width: 400px;
+    background-image: url(gow.jpg);;
+    background-size: 400px 300px;
+    text-align:inherit;
+	}
+
+div[class^="gow"]:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(gow.jpg);;
+  
+    color: rgb(255, 255, 255);
+    }
+
+div[class^="gta"]{
+	display: block;
+    float: right;
+    height: 300px;
+    width: 400px;
+	background-image: url(gta.jpg);
+    background-size: 400px 300px;
+	}
+    div[class^="gta"]:hover {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(gta.jpg);;
+        }
+
+div[class^="db"]{
+	display: block;
+    float: right;
+    height: 300px;
+    width: 400px;
+	background-image: url(db.jpg);
+    background-size: 400px 300px;
+	}
+    div[class^="db"]:hover {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(db.jpg);;
+        }
+
+div[class^="re"]{
+	display: block;
+    height: 300px;
+    width: 400px;
+	background-image: url(re.jpg);
+    background-size: 400px 300px;
+	}
+    div[class^="re"]:hover {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(re.jpg);;
+        }
+
+div[class^="ct"]{
+	display: block;
+    height: 300px;
+    width: 400px;
+	background-image: url(ct.png);
+    background-size: 400px 300px;
+	}
+    div[class^="ct"]:hover {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(ct.png);;
+        }
+div[class^="fs"]{
+	display: block;
+    height: 300px;
+    width: 400px;
+	background-image: url(fs.PNG);
+    background-size: 400px 300px;
+	}
+    div[class^="fs"]:hover {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(fs.PNG);;
+        }
+   
+
+
+footer{
+		background-color: rgb(101, 120, 171);
+		color: rgb(255, 255, 255);
+		padding: 2.5%;
+		
+			}
